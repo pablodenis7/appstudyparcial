@@ -1,6 +1,6 @@
 const { sequelize } = require("../../connection");
-const { ThemesPropertiesModel } = require("../../model/themes_properties.model");
-const ThemesPropertiesService = require('../../service/themes_properties.service');
+const { ThemesPropertiesModel } = require("../../model/themes_properties/themes_properties.model");
+const ThemesPropertiesService = require("../../service/themes_properties/themes_properties.service");
 
 
 const listar = async function (req, res) {
